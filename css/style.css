@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.container {
+  width: 65%;
+  margin: 0 auto;
+}
+
+.choose {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.choose-desc {
+  padding: 10px 0;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  /* flex-wrap: wrap; */
+  font-size: 20px;
+}
+
+.card {
+  width: 220px;
+  height: 300px;
+  justify-content: space-around;
+  border: 1px solid rgb(201, 201, 232);
+  border-radius: 10px;
+}
+
+.card h3 {
+  padding: 20px;
+}
+
+.card p {
+  padding: 10px;
+  font-size: 20px;
+}
+
+button {
+  color: white;
+  background-color: #6e38f7;
+  border-radius: 5px;
+  width: 200px;
+  padding: 10px;
+}
+
+.card h4 i {
+  color: #6e38f7;
+}
+
+.plans {
+  /* display: flex;
+  flex-wrap: wrap; */
+  padding: 20px 20;
+  text-align: center;
+}
+
+.plans-desc {
+  padding: 10px 0;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  /* flex-wrap: wrap; */
+  font-size: 20px;
+}
+
+/*  plans-team */
+
+.plans-team {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.plans-team-cards {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+
+.plans-team-card {
+  border: 1 solid gray;
+  padding: 20px;
+}
